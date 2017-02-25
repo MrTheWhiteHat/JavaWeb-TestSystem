@@ -1,0 +1,299 @@
+@CHARSET "UTF-8";
+			html
+			{
+			color:#000;			
+			background:#fff;
+			overflow:auto\9;
+			-webkit-text-size-adjust:100%;
+			-ms-text-size-adjust:100%;
+			}
+			
+			body,div, textarea,select,button 
+			{
+				margin:0;
+				padding:0;
+				font-size:12px;
+				font-family:"Micosoft YaHei";
+				color:#2F4F4F;	
+			}
+			html,body
+			{
+				display:block;
+				width:100%;
+				height:100%;
+				overflow-y:hidden; /*决定着是否有滚动条*/
+				overflow-x:hidden;
+				
+			
+			}
+			
+			ul 
+			{
+			margin:0;
+			padding:0;
+			list-style:none;
+			display:block;
+			-webkit-margin-before:1em;
+			-webkit-margin-after:1em;
+			-webkit-margin-start:0px;
+			-webkit-margin-end:0px;
+			-webkit-padding-start:40px;
+			}
+			
+			li
+			{
+			margin-top:0;
+			display:list-item;
+			}
+			
+			a {text-decoration:none;color:#0fffff; font-size:16px;}
+			a:hover {text-decoration:none;color:red;font-size:16px} //鼠标点击后有下划线
+			a:active {text-decoration:;color:black;font-size:40px}
+			
+			.container
+			{
+			min-height:500px;
+			width:100%;
+			height:100%;
+			position:absolute;
+			}
+			.header
+			{
+			  height:62px;
+			  overflow:hidden;
+			  overflow-x:hidden;
+			  overflow-y:hidden;
+			  zoom: 1;
+			  border-bottom-width:1 solid #d6dfea;
+			  font-size:16px;
+  			  background-color:rgba(0, 0, 0, 0.6666);	
+			}
+			
+			.header_logo
+			{
+				float:left;
+				_display:inline;
+				width:300px;
+				height:50px;
+				margin-top:6px;
+				margin-left:20px;
+				text-indent:-9999em;
+				background-size:300px 50px;
+				background-repeat:no-repeat;
+				background-position:left center;
+				background-image:url(../images/logo/logopig.png); /*一个点：表示当前目录；两个点：表示当前目录的上级目录。*/
+			}
+			
+			.welcuser {
+				float:left;
+				font-size:16px;
+				margin-left:20px;
+				text-align:center;
+			}
+			
+			.header_link
+			{
+				overflow:hidden;
+				margin-top:16px;
+				padding-right:17px;
+				line-height:30px;
+				text-align:right;
+				color:#eff4fa;
+			}
+			
+			.content
+			{
+				margin-top:32px;
+				margin-right:auto;
+				margin-bottom:32px;
+				margin:auto;
+				padding-top:0px;
+				padding-right:24px;
+				padding-bottom:0px;
+				padding-left:24px;
+				height:680px;
+				zoom:1;
+			}
+			
+			.ui-nav li
+			{
+				float:left;
+				width:100%;
+				color:#0ff;
+				text-align:center;
+				border-bottom:2px #ffffff solid;
+				font-size:22px;
+				word-spacing:30px;
+				padding-top:15px;
+				padding-right:0px;
+				padding-bottom:4px;
+				padding-left:0px;
+				cursor:pointer;
+			}
+			
+			.ui-nav li.active
+			{
+				color:#0AE;
+				border-bottom-color:#0AE;
+			}
+			
+			.ui-nav 
+			{
+				margin:0;
+				width:100%;
+                padding:0;
+				background-color:rgba(0, 0, 0, 0.498039);
+				filter:progid:DXImageTransfrom.Microsoft.Gradient(GradientType=0, StartColorStr= '#66000000', EndColorStr='#66000000');
+			}
+			#loginform
+			{
+				background-color:rgba(0, 0, 0, 0.498039);
+				overflow-x:hidden;
+				overflow-y:hidden;
+				float:right;
+				margin-top:10%;
+				margin-right:20%;
+				width:265px;
+				position:relative;
+			}
+			#user
+			{
+				margin-top:25px;
+				background-color:#fff;
+				border:5;
+				width:175px;
+				height:34px;
+				padding-left:30px;
+			}
+			
+			.ui-form-item
+			{
+				padding:0 0 10px 0;
+				width:175px;
+				height:100px;
+				padding-left:30px;
+				padding-right:30px;
+				zoom: 1;
+				position:relative;
+			}	
+			
+			#psw
+			{
+				margin-top:10px;
+				background-color:#fff ;
+				border:5;	
+				width:175px;
+				height:34px;
+				padding-left:30px;
+			}
+			
+			#passwd
+			{
+				margin-bottom:25px;
+				width:175px;
+				height:34px;
+			}
+			
+			#login
+			{
+				 background-color: #4169E1;
+				 font-size:16px;
+				 color:#fff;
+				 width:40%;
+				 height: 25px;
+				 cursor:pointer;
+			}
+			
+			#login:hover /*设置鼠标滑过是的样式*/
+			{
+				background-color: #00aaee;
+				opacity: 1;
+			}
+			
+			#cancel
+			{
+				float:right;
+				background: #4169E1;
+				font-size:16px;
+				color:#fff;
+				width:40%;
+				height:25px;
+				cursor:pointer;
+			}
+			
+			#cancel:hover 
+			{
+				background-color: #00aaee;
+				opacity: 1;
+			}
+			
+			#content2 
+			{
+				width:206px;
+				height:34px;
+				margin-top:20px;
+				margin-bottom:10px;
+				border:10px;
+				float:left;
+				display:inline-block;
+				
+			}
+			
+			#content1
+			{
+				width:236px;
+				height:25px;
+				border:0;
+				margin-top:0;
+				padding-left:30px;
+			}
+			
+			#content3
+			{
+				width:180px;
+				color:#fff;
+				float:right;
+				margin-bottom:10px;
+			}
+			
+			.footer
+			{
+			   height:25px;
+			   overflow-x:hidden;
+			   overflow-y:hidden;
+			   zoom: 1;
+			   position:absolute;
+			   left:0;
+			   right:0;
+			   bottom:0;
+			   z-index:2;
+			   clear:both;
+			   line-height:25px;
+			   font-size:12px;
+			   font-family:"lucida Grande",Verdana,"Micosoft YaHei";
+			   background-color:rgba(0, 0, 0, 0.6666);	
+			   text-align:center;	    
+			}
+			
+			.gray
+			{
+				color:#fff;
+			}
+			
+			.login-background
+			{
+				position:absolute;
+				width:100%;
+				height:700px;
+				top:0;
+				left:0;
+				overflow-x:hidden;
+				overflow-y:hidden;
+				z-index:-1;
+			}
+			
+			.login-bg
+			{
+			width:130%;
+			height:100%;
+			}
